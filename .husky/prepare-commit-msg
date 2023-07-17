@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+ if [ -z "${2-}" ]; then
+    export CZ_TYPE="${CZ_TYPE:-fix}"
+    export CZ_MAX_HEADER_WIDTH=$COMMITLINT_MAX_WIDTH
+    export CZ_MAX_LINE_WIDTH=$CZ_MAX_HEADER_WIDTH
+
+    exec < /dev/tty &&  npx git-cz --hook || true
+fi
