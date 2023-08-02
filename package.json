@@ -1,5 +1,5 @@
 {
-  "name": "@ownage/approvedeny",
+  "name": "@ownage-fdt/approvedeny",
   "version": "1.0.0",
   "description": "A Node.js SDK for the Approvedeny API",
   "main": "dist/index.js",

@@ -1,9 +1,9 @@
 # ApproveDeny SDK for Node.js
 
-[![npm version](https://img.shields.io/npm/v/@ownage/approvedeny.svg?style=flat-square)](https://www.npmjs.com/package/@ownage/approvedeny)
-[![install size](https://img.shields.io/badge/dynamic/json?url=https://packagephobia.com/v2/api.json?p=@ownage/approvedeny&query=$.install.pretty&label=install%20size&style=flat-square)](https://packagephobia.now.sh/result?p=@ownage/approvedeny)
-[![npm bundle size](https://img.shields.io/bundlephobia/minzip/@ownage/approvedeny?style=flat-square)](https://bundlephobia.com/package/@ownage/approvedeny@latest)
-[![npm downloads](https://img.shields.io/npm/dm/@ownage/approvedeny.svg?style=flat-square)](https://npm-stat.com/charts.html?package=@ownage/approvedeny)
+[![npm version](https://img.shields.io/npm/v/@ownage-fdt/approvedeny.svg?style=flat-square)](https://www.npmjs.com/package/@ownage-fdt/approvedeny)
+[![install size](https://img.shields.io/badge/dynamic/json?url=https://packagephobia.com/v2/api.json?p=@ownage-fdt/approvedeny&query=$.install.pretty&label=install%20size&style=flat-square)](https://packagephobia.now.sh/result?p=@ownage-fdt/approvedeny)
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/@ownage-fdt/approvedeny?style=flat-square)](https://bundlephobia.com/package/@ownage-fdt/approvedeny@latest)
+[![npm downloads](https://img.shields.io/npm/dm/@ownage-fdt/approvedeny.svg?style=flat-square)](https://npm-stat.com/charts.html?package=@ownage-fdt/approvedeny)
 ![GitHub Actions](https://github.com/Ownage-FDT/approvedeny-sdk-nodejs/actions/workflows/run-tests.yml/badge.svg)
 
 The ApproveDeny SDK for Node.js provides an easy way to interact with the ApproveDeny API using Node.js.
@@ -14,14 +14,14 @@ The ApproveDeny SDK for Node.js provides an easy way to interact with the Approv
 You can install the package via npm:
 
 ```bash
-npm install @ownage/approvedeny
+npm install @ownage-fdt/approvedeny
 ```
 
 ## Usage
 To use the SDK, you need to create an instance of the Client class. You can do this by passing your API key to the constructor.
 
 ```typescript
-import { Client } from '@ownage/approvedeny'
+import { Client } from '@ownage-fdt/approvedeny'
 
 const client = new Client('your-api-key');
 ```
